@@ -1,4 +1,5 @@
 {
+  "homepage": ".",
   "name": "node_teste_yarn",
   "version": "0.1.0",
   "private": true,
