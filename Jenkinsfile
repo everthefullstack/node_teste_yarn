@@ -8,7 +8,7 @@ pipeline {
                 nodejs("Node-12.13.0") {
                     bat "yarn install"
                     bat "yarn build"
-
+                    bat "yarn start"
                 }
             }
         }
