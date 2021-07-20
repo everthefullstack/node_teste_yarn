@@ -6,8 +6,9 @@ pipeline {
             steps {
                 echo 'executando yarn build'
                 nodejs("Node-12.13.0") {
+                    bat "yarn install"
                     bat "yarn build"
-                    
+
                 }
             }
         }
